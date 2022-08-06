@@ -35,5 +35,4 @@ struct CalculatorBrain{
             bmi = BMI(value: bmiValue, advice: "Eat less pies!", color: .systemRed)
         }
     }
-    
 }

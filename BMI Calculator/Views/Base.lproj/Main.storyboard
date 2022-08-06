@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -133,7 +132,6 @@
                         <outlet property="weightLabel" destination="LTF-aL-8qu" id="ycw-Hb-Jnm"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="fY5-JD-I7G"/>
                         <segue destination="lkq-xS-Cin" kind="presentation" identifier="goToResult" id="p2Y-zL-Uzu"/>
-                        <segue destination="Eu0-Gn-6SU" kind="presentation" id="SKO-ei-HyK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -218,27 +216,9 @@
             </objects>
             <point key="canvasLocation" x="916" y="138"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="zb2-aL-c6h">
-            <objects>
-                <viewController id="Eu0-Gn-6SU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ED6-9c-JR3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="dRB-f3-AmH"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KZo-zD-HoI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="916" y="895"/>
-        </scene>
     </scenes>
     <resources>
         <image name="calculate_background" width="375" height="812"/>
         <image name="result_background" width="375" height="812"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
